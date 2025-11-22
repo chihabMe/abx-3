@@ -1,0 +1,34 @@
+{
+  "questions": [
+    {
+      "id": "installation",
+      "question": "COMMENT INSTALLER MON ABONNEMENT ?",
+      "answer": "Après avoir effectué le paiement de votre abonnement, un message WhatsApp ou un email de confirmation avec vos infos d'accès et les instructions d'activation vous sera adressé."
+    },
+    {
+      "id": "compatible",
+      "question": "EST-CE COMPATIBLE AVEC MON APPAREIL ?",
+      "answer": "Notre service de streaming est accessible avec tous les appareils."
+    },
+    {
+      "id": "devices",
+      "question": "COMBIEN D'APPAREILS PUIS-JE UTILISER ?",
+      "answer": "Les abonnés à notre service peuvent utiliser 1 appareil à la fois."
+    },
+    {
+      "id": "trial",
+      "question": "PROPOSEZ-VOUS UN ESSAI GRATUIT ?",
+      "answer": "Oui, nous offrons un essai gratuit de 1 jour sur tous nos forfaits. Vous pouvez tester toutes les fonctionnalités avant le début de votre abonnement. Aucun frais ne sera facturé avant la fin de la période d'essai."
+    },
+    {
+      "id": "activation",
+      "question": "COMMENT ACTIVER MON ABONNEMENT ?",
+      "answer": "Une fois le paiement confirmé, un message WhatsApp ou un email sera envoyé dans l'heure qui suit."
+    },
+    {
+      "id": "support",
+      "question": "COMMENT AVOIR DES RÉPONSES À MES QUESTIONS ?",
+      "answer": "Veuillez nous contacter par WhatsApp : +213773941700 ou par email : bourouznadir@gmail.com"
+    }
+  ]
+}

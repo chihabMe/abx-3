@@ -1,0 +1,62 @@
+{
+  "plans": [
+    {
+      "id": "Free-Trial",
+      "name": "Essai Gratuit",
+      "price": 0,
+      "period": "1h ",
+      "description": "Accès limité pendant 1h",
+      "features": [
+        "Streaming HD",
+        "Contenu varié",
+        "Interface intuitive",
+        "Support technique",
+        "Compatibilité large",
+        "Mises à jour automatiques",
+        "Accès rapide"
+      ],
+      "highlighted": false,
+      "cta": "Essayer Gratuitement"
+    },
+    {
+      "id": "Standard",
+      "name": "Standard",
+      "price": 35,
+      "originalPrice": 45,
+      "period": "12 mois",
+      "description": "12 mois ",
+      "features": [
+        "Streaming HD & 4K",
+        "Bibliothèque de contenu",
+        "Interface utilisateur",
+        "Support technique",
+        "Compatibilité large",
+        "Mises à jour automatiques",
+        "Navigation rapide",
+        "Garantie 30 jours"
+      ],
+      "highlighted": false,
+      "cta": "Go Standard"
+    },
+    {
+      "id": "premium-pricing",
+      "name": "Premium",
+      "price": 52,
+      "originalPrice": 60,
+      "period": "12 mois",
+      "description": "12 mois ",
+      "features": [
+        "Contenu premium étendu",
+        "Résolutions : SD, HD, Full HD, 4K",
+        "Guide de programmation",
+        "Accès replay disponible",
+        "Services de streaming intégrés",
+        "Mises à jour automatiques",
+        "Sécurité renforcée",
+        "Garantie 30 jours"
+      ],
+      "highlighted": true,
+      "cta": "Go Premium"
+    }
+  ]
+}
