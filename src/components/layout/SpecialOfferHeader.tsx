@@ -46,7 +46,7 @@ const SpecialOfferHeader = () => {
           </motion.div>
           <span className="text-xs sm:text-sm md:text-base font-medium">
             <span className="hidden sm:inline">
-              🚀 Service Ultra-Rapide & Fiable
+              🚀 Service Ultra-Rapide & Fiable & Solide
             </span>
             <span className="sm:hidden">🚀 Service Rapide</span>
             <span className="font-bold text-[#0055A4] ml-2 bg-white/10 px-2 py-1 rounded-full backdrop-blur-sm">
