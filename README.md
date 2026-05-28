@@ -1,4 +1,4 @@
-# Abonix Frane - Premium Entertainment Platform
+# AboFranc4K Live - Premium IPTV Platform
 
 _Modern streaming and entertainment platform built with Next.js_
 
@@ -7,7 +7,7 @@ _Modern streaming and entertainment platform built with Next.js_
 
 ## Overview
 
-Abonix Frane is a premium entertainment streaming platform offering thousands of high-quality content and media. Built with modern web technologies for the best user experience.
+AboFranc4K Live is a premium IPTV and streaming platform offering 4K content, live sports, movies, and series. Built with modern web technologies for the best user experience.
 
 ## Features
 
@@ -24,3 +24,22 @@ Abonix Frane is a premium entertainment streaming platform offering thousands of
 - **Database**: Prisma with PostgreSQL
 - **Authentication**: NextAuth.js
 - **Deployment**: Vercel
+
+## Telegram Order Notifications
+
+When a customer creates an order, the server sends a Telegram message after the order is saved.
+
+Required environment variables:
+
+```env
+TELEGRAM_BOT_TOKEN=123456:your-bot-token
+TELEGRAM_CHAT_ID=123456789
+```
+
+Optional for Telegram forum topics:
+
+```env
+TELEGRAM_MESSAGE_THREAD_ID=123
+```
+
+The notification is non-blocking for the customer flow: if Telegram is not configured or the API fails, the order is still created.

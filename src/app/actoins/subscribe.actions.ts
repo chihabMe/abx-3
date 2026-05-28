@@ -6,6 +6,7 @@ import { prisma } from "@/lib/db";
 import { getClientCountry } from "@/lib/ip-tools";
 import { revalidatePath } from "next/cache";
 import { WebhookService } from "@/lib/webhook";
+import { TelegramService } from "@/lib/telegram";
 
 const subscribeSchema = z.object({
   fullName: z
@@ -78,6 +79,24 @@ export const subscribeActions = publicActionsClient
       } catch (webhookError) {
         // Log webhook error but don't fail the order creation
         console.error("Webhook notification failed:", webhookError);
+      }
+
+      // Send Telegram notification
+      try {
+        await TelegramService.sendOrderNotification({
+          id: newOrder.id,
+          fullName: newOrder.fullName,
+          email: newOrder.email,
+          phoneNumber: newOrder.phoneNumber,
+          planName: newOrder.planName,
+          duration: newOrder.duration,
+          price: newOrder.price,
+          country: newOrder.country,
+          createdAt: newOrder.createdAt,
+        });
+      } catch (telegramError) {
+        // Log Telegram errors but don't fail the order creation
+        console.error("Telegram notification failed:", telegramError);
       }
 
       revalidatePath("/admin");
