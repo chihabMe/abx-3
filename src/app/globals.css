@@ -26,15 +26,15 @@ section[id] {
   --secondary-foreground: oklch(0.94 0.012 92);
   --muted: oklch(0.28 0.025 180);
   --muted-foreground: oklch(0.74 0.025 94);
-  --accent: oklch(0.78 0.155 84);
-  --accent-foreground: oklch(0.12 0.018 175);
+  --accent: oklch(0.72 0.16 240);
+  --accent-foreground: oklch(0.12 0.015 240);
   --destructive: oklch(0.577 0.245 27.325);
   --destructive-foreground: oklch(0.577 0.245 27.325);
   --border: oklch(0.3 0.028 175);
   --input: oklch(0.2 0.025 175);
-  --ring: oklch(0.78 0.155 84);
+  --ring: oklch(0.72 0.16 240);
   --chart-1: oklch(0.68 0.145 166);
-  --chart-2: oklch(0.78 0.155 84);
+  --chart-2: oklch(0.72 0.16 240);
   --chart-3: oklch(0.68 0.14 35);
   --chart-4: oklch(0.58 0.1 210);
   --chart-5: oklch(0.7 0.11 315);
@@ -46,7 +46,7 @@ section[id] {
   --sidebar-accent: oklch(0.25 0.035 180);
   --sidebar-accent-foreground: oklch(0.97 0.012 92);
   --sidebar-border: oklch(0.3 0.028 175);
-  --sidebar-ring: oklch(0.78 0.155 84);
+  --sidebar-ring: oklch(0.72 0.16 240);
 }
 
 .dark {
@@ -152,7 +152,7 @@ section[id] {
   }
   50% {
     box-shadow:
-      0 0 30px rgba(245, 158, 11, 0.35),
+      0 0 30px rgba(59, 130, 246, 0.35),
       0 0 40px rgba(20, 184, 166, 0.25);
   }
 }
@@ -187,7 +187,7 @@ section[id] {
   position: absolute;
   inset: 0;
   padding: 2px;
-  background: linear-gradient(45deg, var(--accent), #14b8a6, #f97316);
+  background: linear-gradient(45deg, var(--accent), #14b8a6, #3b82f6);
   border-radius: inherit;
   mask:
     linear-gradient(#fff 0 0) content-box,

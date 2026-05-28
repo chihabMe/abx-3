@@ -306,7 +306,7 @@ const SubscriptionModal = ({
                     Nous avons envoyé les instructions de paiement à{" "}
                     <span className="font-medium text-white">{userEmail}</span>
                   </p>
-                  <p className="mt-3 rounded-lg bg-amber-400/10 px-3 py-2 text-sm font-medium text-amber-400">
+                  <p className="mt-3 rounded-lg bg-blue-400/10 px-3 py-2 text-sm font-medium text-blue-400">
                     ⚠️ Veuillez vérifier votre boîte de réception et vos
                     dossiers spam/indésirables.
                   </p>

@@ -21,7 +21,7 @@ export default function Header() {
   return (
     <>
       {/* Top Discount Banner */}
-      <div className="bg-gradient-to-r from-emerald-950 via-amber-500 to-emerald-950 py-2 text-center text-sm font-semibold text-emerald-950">
+      <div className="bg-gradient-to-r from-emerald-950 via-blue-500 to-emerald-950 py-2 text-center text-sm font-semibold text-white">
         <span className="inline-flex items-center gap-2">
           Offre abofranc4k.live: essai 1h + activation rapide
           <span className="hidden sm:inline">- Support disponible 24/7</span>
