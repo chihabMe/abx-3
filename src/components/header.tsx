@@ -11,8 +11,7 @@ export default function Header() {
 
   const navLinks = [
     { name: "Accueil", href: "accueil" },
-    { name: "Contenus", href: "contenus" },
-    { name: "Plateforme", href: "/entertainment", external: true },
+    { name: "Catalogue", href: "contenu-premium" },
     { name: "Fonctionnalités", href: "fonctionnalités" },
     { name: "Tarifs", href: "tarifs" },
     { name: "FAQ", href: "faq" },
@@ -22,15 +21,14 @@ export default function Header() {
   return (
     <>
       {/* Top Discount Banner */}
-      <div className="bg-gradient-to-r from-red-600 via-orange-500 to-red-600 text-white py-2 text-center text-sm font-semibold">
+      <div className="bg-gradient-to-r from-emerald-950 via-amber-500 to-emerald-950 py-2 text-center text-sm font-semibold text-emerald-950">
         <span className="inline-flex items-center gap-2">
-          🔥 OFFRE LIMITÉE: Premium à 52€ au lieu de 60€ | Standard à 35€ au
-          lieu de 45€
-          <span className="hidden sm:inline">- Économisez jusqu'à 8€ !</span>
+          Offre abofranc4k.live: essai 1h + activation rapide
+          <span className="hidden sm:inline">- Support disponible 24/7</span>
         </span>
       </div>
 
-      <header className="sticky top-0 z-50 bg-background/95 backdrop-blur border-b border-border">
+      <header className="sticky top-0 z-50 border-b border-border bg-background/90 backdrop-blur-xl">
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
           <div className="flex justify-between items-center h-16">
             {/* Logo */}
@@ -45,7 +43,7 @@ export default function Header() {
                   <Link
                     key={link.name}
                     href={link.href}
-                    className="text-sm font-medium text-muted-foreground hover:text-foreground transition-colors"
+                className="text-sm font-medium text-muted-foreground hover:text-foreground transition-colors"
                   >
                     {link.name}
                   </Link>
@@ -53,7 +51,7 @@ export default function Header() {
                   <a
                     key={link.name}
                     href={`#${link.href}`}
-                    className="text-sm font-medium text-muted-foreground hover:text-foreground transition-colors"
+                className="text-sm font-medium text-muted-foreground hover:text-foreground transition-colors"
                   >
                     {link.name}
                   </a>
@@ -65,14 +63,14 @@ export default function Header() {
             <div className="hidden md:flex items-center gap-4">
               <Button
                 size="sm"
-                className="bg-accent hover:bg-accent/90 text-accent-foreground"
+                className="rounded-full bg-accent text-accent-foreground hover:bg-accent/90"
                 onClick={() =>
                   document
                     .getElementById("tarifs")
                     ?.scrollIntoView({ behavior: "smooth" })
                 }
               >
-                Commandez Maintenant
+                Voir les offres
               </Button>
             </div>
 
@@ -117,7 +115,7 @@ export default function Header() {
                       ?.scrollIntoView({ behavior: "smooth" });
                   }}
                 >
-                  Commandez Maintenant
+                  Voir les offres
                 </Button>
               </div>
             </nav>

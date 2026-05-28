@@ -19,7 +19,7 @@ export default function ChannelPreview() {
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
         <div className="text-center mb-16">
           <h2 className="text-4xl md:text-5xl font-bold mb-4 bg-gradient-to-r from-foreground to-accent bg-clip-text text-transparent">
-            Bibliothèque Abonix Frane Premium
+            Bibliothèque AboFranc4K Live
           </h2>
           <p className="text-xl text-muted-foreground max-w-3xl mx-auto leading-relaxed">
             Films, Séries, Documentaires, Sport en Direct — Plus de 100,000

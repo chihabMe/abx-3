@@ -204,7 +204,7 @@ export default function ContactModal() {
                 </Button>
                 <Button
                   type="submit"
-                  className="bg-[#0055A4] px-4 py-2 cursor-pointer text-white hover:bg-[#0055A4]/90 ml-4 rounded-xl"
+                  className="ml-4 cursor-pointer rounded-xl bg-accent px-4 py-2 text-accent-foreground hover:bg-accent/90"
                   disabled={isSubmitting}
                 >
                   {isSubmitting ? (

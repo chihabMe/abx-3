@@ -14,40 +14,39 @@ section[id] {
 }
 
 :root {
-  /* Updated color palette for premium IPTV dark theme with neon blue accents */
-  --background: oklch(0.08 0 0);
-  --foreground: oklch(0.98 0 0);
-  --card: oklch(0.12 0 0);
-  --card-foreground: oklch(0.98 0 0);
-  --popover: oklch(0.12 0 0);
-  --popover-foreground: oklch(0.98 0 0);
-  --primary: oklch(0.15 0 0);
-  --primary-foreground: oklch(0.98 0 0);
-  --secondary: oklch(0.2 0 0);
-  --secondary-foreground: oklch(0.98 0 0);
-  --muted: oklch(0.3 0 0);
-  --muted-foreground: oklch(0.65 0 0);
-  --accent: oklch(0.55 0.25 262);
-  --accent-foreground: oklch(0.98 0 0);
+  --background: oklch(0.115 0.018 175);
+  --foreground: oklch(0.97 0.012 92);
+  --card: oklch(0.17 0.025 175);
+  --card-foreground: oklch(0.97 0.012 92);
+  --popover: oklch(0.17 0.025 175);
+  --popover-foreground: oklch(0.97 0.012 92);
+  --primary: oklch(0.68 0.145 166);
+  --primary-foreground: oklch(0.12 0.018 175);
+  --secondary: oklch(0.25 0.035 180);
+  --secondary-foreground: oklch(0.94 0.012 92);
+  --muted: oklch(0.28 0.025 180);
+  --muted-foreground: oklch(0.74 0.025 94);
+  --accent: oklch(0.78 0.155 84);
+  --accent-foreground: oklch(0.12 0.018 175);
   --destructive: oklch(0.577 0.245 27.325);
   --destructive-foreground: oklch(0.577 0.245 27.325);
-  --border: oklch(0.2 0 0);
-  --input: oklch(0.15 0 0);
-  --ring: oklch(0.55 0.25 262);
-  --chart-1: oklch(0.55 0.25 262);
-  --chart-2: oklch(0.6 0.118 184.704);
-  --chart-3: oklch(0.398 0.07 227.392);
-  --chart-4: oklch(0.828 0.189 84.429);
-  --chart-5: oklch(0.769 0.188 70.08);
+  --border: oklch(0.3 0.028 175);
+  --input: oklch(0.2 0.025 175);
+  --ring: oklch(0.78 0.155 84);
+  --chart-1: oklch(0.68 0.145 166);
+  --chart-2: oklch(0.78 0.155 84);
+  --chart-3: oklch(0.68 0.14 35);
+  --chart-4: oklch(0.58 0.1 210);
+  --chart-5: oklch(0.7 0.11 315);
   --radius: 0.625rem;
-  --sidebar: oklch(0.12 0 0);
-  --sidebar-foreground: oklch(0.98 0 0);
-  --sidebar-primary: oklch(0.55 0.25 262);
-  --sidebar-primary-foreground: oklch(0.98 0 0);
-  --sidebar-accent: oklch(0.2 0 0);
-  --sidebar-accent-foreground: oklch(0.98 0 0);
-  --sidebar-border: oklch(0.2 0 0);
-  --sidebar-ring: oklch(0.55 0.25 262);
+  --sidebar: oklch(0.14 0.02 175);
+  --sidebar-foreground: oklch(0.97 0.012 92);
+  --sidebar-primary: oklch(0.68 0.145 166);
+  --sidebar-primary-foreground: oklch(0.12 0.018 175);
+  --sidebar-accent: oklch(0.25 0.035 180);
+  --sidebar-accent-foreground: oklch(0.97 0.012 92);
+  --sidebar-border: oklch(0.3 0.028 175);
+  --sidebar-ring: oklch(0.78 0.155 84);
 }
 
 .dark {
@@ -135,7 +134,7 @@ section[id] {
   }
 }
 
-/* Custom animations and effects for Abonix Frane */
+/* Custom animations and effects for AboFranc4K Live */
 @keyframes float {
   0%,
   100% {
@@ -149,12 +148,12 @@ section[id] {
 @keyframes glow {
   0%,
   100% {
-    box-shadow: 0 0 20px rgba(139, 92, 246, 0.3);
+    box-shadow: 0 0 20px rgba(20, 184, 166, 0.28);
   }
   50% {
     box-shadow:
-      0 0 30px rgba(139, 92, 246, 0.6),
-      0 0 40px rgba(59, 130, 246, 0.3);
+      0 0 30px rgba(245, 158, 11, 0.35),
+      0 0 40px rgba(20, 184, 166, 0.25);
   }
 }
 
@@ -188,7 +187,7 @@ section[id] {
   position: absolute;
   inset: 0;
   padding: 2px;
-  background: linear-gradient(45deg, var(--accent), #8b5cf6, #3b82f6);
+  background: linear-gradient(45deg, var(--accent), #14b8a6, #f97316);
   border-radius: inherit;
   mask:
     linear-gradient(#fff 0 0) content-box,

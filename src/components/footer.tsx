@@ -12,8 +12,8 @@ export default function Footer() {
               <AbonixLogo size="md" />
             </div>
             <p className="text-muted-foreground text-sm">
-              Plateforme de streaming premium avec des milliers de contenus en
-              4K et un service client disponible 24/7.
+              AboFranc4K Live sur abofranc4k.live: streaming 4K, sport, films,
+              series et support client disponible 24/7.
             </p>
           </div>
 
@@ -31,7 +31,7 @@ export default function Footer() {
               </li>
               <li>
                 <a
-                  href="#contenus"
+                  href="#contenu-premium"
                   className="hover:text-foreground transition-colors"
                 >
                   Contenus
@@ -92,7 +92,7 @@ export default function Footer() {
             <ul className="space-y-2 text-sm text-muted-foreground">
               <li>
                 <a href="#" className="hover:text-foreground transition-colors">
-                  Conditions d'Utilisation
+                  Conditions d&apos;Utilisation
                 </a>
               </li>
               <li>
@@ -160,7 +160,7 @@ export default function Footer() {
 
             {/* Copyright */}
             <div className="text-sm text-muted-foreground">
-              © 2025 Abonix. Tous droits réservés.
+              © 2026 AboFranc4K Live. Tous droits réservés.
             </div>
           </div>
         </div>

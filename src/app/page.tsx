@@ -1,9 +1,6 @@
 import Header from "@/components/header";
 import Hero from "@/components/hero";
 import Features from "@/components/features";
-import StreamingPlatforms from "@/components/streaming-platforms";
-import ContentShowcase from "@/components/content-showcase";
-import ContentShowcaseLoading from "@/components/content-showcase-loading";
 import ChannelPreview from "@/components/channel-preview";
 import Pricing from "@/components/pricing";
 import DeviceCompatibility from "@/components/device-compatibility";
@@ -12,10 +9,6 @@ import FAQ from "@/components/faq";
 import CTABanner from "@/components/cta-banner";
 import Footer from "@/components/footer";
 import ContactModal from "@/components/modals/ContactModal";
-import { Button } from "@/components/ui/button";
-import { Play } from "lucide-react";
-import Link from "next/link";
-import { Suspense } from "react";
 
 export default function Home() {
   return (
@@ -31,9 +24,7 @@ export default function Home() {
       {/* <StreamingPlatforms /> */}
       {/* </section> */}
       <section id="contenu-premium">
-        {/* <Suspense fallback={<ContentShowcaseLoading />}> */}
-        {/* <ContentShowcase /> */}
-        {/* </Suspense> */}
+        <ChannelPreview />
       </section>
 
       <section id="tarifs">

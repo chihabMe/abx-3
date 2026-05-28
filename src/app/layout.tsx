@@ -6,9 +6,19 @@ import Providers from "@/components/Providers";
 import "./globals.css";
 
 export const metadata: Metadata = {
-  title: "Abonix Frane - Plateforme de Divertissement Premium",
+  title: "AboFranc4K Live - Streaming 4K Premium",
   description:
-    "Abonix Frane - Service de streaming premium avec des milliers de contenus en 4K, support 24/7 et 99.9% de disponibilité",
+    "abofranc4k.live - Service de streaming 4K premium avec sport, films, series, support 24/7 et haute disponibilite.",
+  metadataBase: new URL("https://abofranc4k.live"),
+  openGraph: {
+    title: "AboFranc4K Live",
+    description:
+      "Streaming 4K premium, sport en direct, films et series sur tous vos appareils.",
+    url: "https://abofranc4k.live",
+    siteName: "AboFranc4K Live",
+    locale: "fr_FR",
+    type: "website",
+  },
   generator: "Next.js",
 };
 

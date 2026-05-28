@@ -18,14 +18,17 @@ export default function AbonixLogo({
 
   return (
     <div
-      className={`${sizeClasses[size]} font-bold bg-gradient-to-r from-accent via-purple-400 to-blue-400 bg-clip-text text-transparent ${className}`}
+      className={`${sizeClasses[size]} font-black tracking-wide text-foreground ${className}`}
     >
-      <span className="relative">
-        Abonix
-        <span className="ml-1 font-light bg-gradient-to-r from-purple-400 to-blue-400 bg-clip-text text-transparent">
-          Frane
+      <span className="relative inline-flex items-baseline">
+        AboFranc
+        <span className="ml-1 rounded-md bg-accent px-1.5 py-0.5 text-[0.65em] font-black leading-none text-accent-foreground">
+          4K
         </span>
-        <div className="absolute -top-1 -right-1 w-2 h-2 bg-accent rounded-full animate-pulse opacity-80" />
+        <span className="ml-2 hidden text-[0.42em] font-medium uppercase tracking-[0.28em] text-muted-foreground sm:inline">
+          live
+        </span>
+        <div className="absolute -right-2 -top-1 h-2 w-2 rounded-full bg-accent opacity-90" />
       </span>
     </div>
   );

@@ -154,13 +154,13 @@ const SubscriptionModal = ({
           <>
             <DialogHeader className="space-y-4">
               <div className="flex flex-col items-center text-center">
-                <div className="w-12 h-1 bg-gradient-to-r from-[#0055A4] to-[#0066CC] rounded-full mb-4"></div>
+                <div className="mb-4 h-1 w-12 rounded-full bg-gradient-to-r from-primary to-accent"></div>
                 <DialogTitle className="text-2xl md:text-3xl font-bold bg-gradient-to-r from-white to-gray-300 bg-clip-text text-transparent">
                   Abonnez-vous au forfait {plan.name}
                 </DialogTitle>
                 <DialogDescription className="text-center mt-4">
                   <div className="flex items-baseline justify-center bg-white/5 backdrop-blur-sm border border-white/10 rounded-2xl p-4 mb-4">
-                    <span className="text-3xl font-bold bg-gradient-to-r from-[#0055A4] to-[#0066CC] bg-clip-text text-transparent">
+                    <span className="bg-gradient-to-r from-primary to-accent bg-clip-text text-3xl font-bold text-transparent">
                       ${plan.price}
                     </span>
                     <span className="ml-2 text-gray-300 text-lg">
@@ -192,7 +192,7 @@ const SubscriptionModal = ({
                         <Input
                           placeholder="Jean Dupont"
                           {...field}
-                          className="bg-white/10 backdrop-blur-sm border border-white/20 text-white placeholder:text-gray-400 focus:border-[#0055A4] focus:ring-[#0055A4] rounded-xl py-3"
+                          className="rounded-xl border border-white/20 bg-white/10 py-3 text-white backdrop-blur-sm placeholder:text-gray-400 focus:border-accent focus:ring-accent"
                         />
                       </FormControl>
                       <FormMessage className="text-red-400" />
@@ -212,7 +212,7 @@ const SubscriptionModal = ({
                           type="email"
                           placeholder="jean.dupont@example.com"
                           {...field}
-                          className="bg-white/10 backdrop-blur-sm border border-white/20 text-white placeholder:text-gray-400 focus:border-[#0055A4] focus:ring-[#0055A4] rounded-xl py-3"
+                          className="rounded-xl border border-white/20 bg-white/10 py-3 text-white backdrop-blur-sm placeholder:text-gray-400 focus:border-accent focus:ring-accent"
                         />
                       </FormControl>
                       <FormMessage className="text-red-400" />
@@ -231,7 +231,7 @@ const SubscriptionModal = ({
                         <Input
                           placeholder="+33 6 12 34 56 78"
                           {...field}
-                          className="bg-white/10 backdrop-blur-sm border border-white/20 text-white placeholder:text-gray-400 focus:border-[#0055A4] focus:ring-[#0055A4] rounded-xl py-3"
+                          className="rounded-xl border border-white/20 bg-white/10 py-3 text-white backdrop-blur-sm placeholder:text-gray-400 focus:border-accent focus:ring-accent"
                         />
                       </FormControl>
                       <FormMessage className="text-red-400" />
@@ -242,7 +242,7 @@ const SubscriptionModal = ({
                   <Button
                     type="submit"
                     disabled={isSubmitting}
-                    className="w-full bg-gradient-to-r from-[#0055A4] to-[#0066CC] hover:from-[#0044A3] hover:to-[#0055BB] text-white py-4 rounded-2xl font-semibold text-lg shadow-xl hover:shadow-2xl transition-all duration-300 transform hover:scale-105 disabled:opacity-50 disabled:cursor-not-allowed"
+                    className="w-full rounded-2xl bg-accent py-4 text-lg font-semibold text-accent-foreground shadow-xl transition-all duration-300 hover:scale-105 hover:bg-accent/90 hover:shadow-2xl disabled:cursor-not-allowed disabled:opacity-50"
                   >
                     {isSubmitting ? (
                       <>
@@ -278,16 +278,16 @@ const SubscriptionModal = ({
             <DialogDescription className="space-y-6 text-center">
               <p className="text-gray-300 text-lg">
                 Merci de vous être abonné au forfait{" "}
-                <span className="font-bold bg-gradient-to-r from-[#0055A4] to-[#0066CC] bg-clip-text text-transparent">
+                <span className="bg-gradient-to-r from-primary to-accent bg-clip-text font-bold text-transparent">
                   {plan.name}
                 </span>
                 .
               </p>
 
-              <div className="bg-gradient-to-r from-blue-500/10 to-[#0055A4]/10 backdrop-blur-sm border border-blue-300/20 p-6 rounded-2xl">
+              <div className="rounded-2xl border border-accent/20 bg-gradient-to-r from-primary/10 to-accent/10 p-6 backdrop-blur-sm">
                 <div className="flex flex-col items-center">
-                  <div className="bg-blue-100/20 backdrop-blur-sm rounded-full p-3 mb-3">
-                    <Mail className="h-8 w-8 text-blue-400" />
+                  <div className="mb-3 rounded-full bg-accent/20 p-3 backdrop-blur-sm">
+                    <Mail className="h-8 w-8 text-accent" />
                   </div>
                   <p className="text-white font-medium mb-2">
                     Instructions envoyées !

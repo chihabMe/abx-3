@@ -5,9 +5,9 @@ import { ChevronDown } from "lucide-react";
 
 const faqs = [
   {
-    question: "Ai-je besoin d'un VPN pour utiliser Abonix?",
+    question: "Ai-je besoin d'un VPN pour utiliser AboFranc4K Live?",
     answer:
-      "Non, Abonix est un service légitime. Cependant, utiliser un VPN est optionnel et peut offrir des avantages supplémentaires en matière de confidentialité.",
+      "Non, un VPN n'est pas obligatoire. Vous pouvez l'utiliser seulement si vous voulez ajouter une couche de confidentialite.",
   },
   {
     question: "Y a-t-il un essai gratuit?",
@@ -47,7 +47,7 @@ export default function FAQ() {
             Questions Fréquemment Posées
           </h2>
           <p className="text-xl text-muted-foreground">
-            Trouvez des réponses aux questions courantes sur Abonix
+            Trouvez des réponses aux questions courantes sur abofranc4k.live
           </p>
         </div>
 
